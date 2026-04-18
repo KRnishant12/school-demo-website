@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RJL Public School - Building Bright Futures</title>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ==================== NAVBAR ==================== -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>RJL Public School</span>
+                </div>
+                
+                <!-- Mobile Menu Toggle -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#admission">Admission</a></li>
+                    <li><a href="#academics">Academics</a></li>
+                    <li><a href="#facilities">Facilities</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Building Bright Futures</h1>
+            <p>Where Excellence Meets Education</p>
+            <div class="hero-badge">🎉 Admission Open Now</div>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="document.getElementById('admission').scrollIntoView({behavior: 'smooth'})">
+                    Apply Now
+                </button>
+                <button class="btn btn-secondary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                    Contact Us
+                </button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1427504494785-cdda0e4c9f80?w=600&h=400&fit=crop&q=80" alt="RJL Public School Building">
+        </div>
+    </section>
+
+    <!-- ==================== QUICK HIGHLIGHTS ==================== -->
+    <section class="highlights">
+        <div class="container">
+            <div class="highlight-grid">
+                <div class="highlight-card">
+                    <i class="fas fa-medal"></i>
+                    <h3>50+ Achievements</h3>
+                    <p>National & State Awards</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fas fa-users"></i>
+                    <h3>2000+ Students</h3>
+                    <p>Learning Excellence</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fas fa-chalkboard-user"></i>
+                    <h3>150+ Teachers</h3>
+                    <p>Highly Qualified Staff</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fas fa-trophy"></i>
+                    <h3>25+ Years</h3>
+                    <p>Educational Legacy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-wrapper">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=500&fit=crop&q=80" alt="School Building">
+                </div>
+                <div class="about-content">
+                    <h3>Welcome to RJL Public School</h3>
+                    <p>
+                        RJL Public School stands as a beacon of educational excellence, dedicated to nurturing young minds 
+                        and shaping future leaders. With a legacy spanning 25 years, we have consistently delivered quality 
+                        education combined with character development.
+                    </p>
+                    
+                    <div class="mission-vision">
+                        <div class="mission">
+                            <h4><i class="fas fa-eye"></i> Vision</h4>
+                            <p>To empower every student with knowledge, skills, and values to become responsible global citizens.</p>
+                        </div>
+                        <div class="mission">
+                            <h4><i class="fas fa-bullseye"></i> Mission</h4>
+                            <p>Provide holistic education that develops intellectual, physical, and moral dimensions of personality.</p>
+                        </div>
+                    </div>
+
+                    <div class="principal-message">
+                        <h4><i class="fas fa-user-tie"></i> Principal's Message</h4>
+                        <p>
+                            "Education is not just about academics; it's about building character, fostering creativity, and instilling 
+                            values. At RJL, we believe in nurturing every child's potential to become a responsible and productive member 
+                            of society." - Dr. Rajesh Kumar, Principal
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ADMISSION SECTION ==================== -->
+    <section id="admission" class="admission">
+        <div class="container">
+            <h2 class="section-title">Admission Process</h2>
+            
+            <!-- Process Steps -->
+            <div class="admission-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h4>Register Online</h4>
+                    <p>Fill admission form on our portal</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h4>Submit Documents</h4>
+                    <p>Provide required certificates</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h4>Entrance Test</h4>
+                    <p>Participate in evaluation process</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h4>Admission Confirmation</h4>
+                    <p>Pay fees and complete enrollment</p>
+                </div>
+            </div>
+
+            <!-- Eligibility & Fee Structure -->
+            <div class="admission-info">
+                <div class="eligibility">
+                    <h3>Eligibility Criteria</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Indian citizen or valid visa holder</li>
+                        <li><i class="fas fa-check"></i> Birth certificate required</li>
+                        <li><i class="fas fa-check"></i> Previous school records</li>
+                        <li><i class="fas fa-check"></i> Medical fitness certificate</li>
+                        <li><i class="fas fa-check"></i> Age appropriate for grade level</li>
+                    </ul>
+                </div>
+
+                <!-- Fee Structure Table -->
+                <div class="fee-structure">
+                    <h3>Fee Structure (Annual)</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Class</th>
+                                <th>Tuition Fee</th>
+                                <th>Development</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Nursery - KG</td>
+                                <td>₹45,000</td>
+                                <td>₹5,000</td>
+                                <td>₹50,000</td>
+                            </tr>
+                            <tr>
+                                <td>Class 1-5</td>
+                                <td>₹55,000</td>
+                                <td>₹7,000</td>
+                                <td>₹62,000</td>
+                            </tr>
+                            <tr>
+                                <td>Class 6-8</td>
+                                <td>₹65,000</td>
+                                <td>₹9,000</td>
+                                <td>₹74,000</td>
+                            </tr>
+                            <tr>
+                                <td>Class 9-12</td>
+                                <td>₹75,000</td>
+                                <td>₹11,000</td>
+                                <td>₹86,000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Admission Form -->
+            <div class="admission-form-container">
+                <h3>Quick Admission Inquiry</h3>
+                <form id="admissionForm" class="admission-form">
+                    <div class="form-row">
+                        <input type="text" placeholder="Student Full Name" required>
+                        <input type="email" placeholder="Parent Email" required>
+                    </div>
+                    <div class="form-row">
+                        <select required>
+                            <option value="">Select Class</option>
+                            <option value="Nursery">Nursery</option>
+                            <option value="KG">KG</option>
+                            <option value="1">Class 1</option>
+                            <option value="2">Class 2</option>
+                            <option value="3">Class 3</option>
+                            <option value="4">Class 4</option>
+                            <option value="5">Class 5</option>
+                            <option value="6">Class 6</option>
+                            <option value="7">Class 7</option>
+                            <option value="8">Class 8</option>
+                            <option value="9">Class 9</option>
+                            <option value="10">Class 10</option>
+                            <option value="11">Class 11</option>
+                            <option value="12">Class 12</option>
+                        </select>
+                        <input type="tel" placeholder="Phone Number" required>
+                    </div>
+                    <textarea placeholder="Message (Optional)" rows="3"></textarea>
+                    <button type="submit" class="btn btn-primary">Submit Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ACADEMICS SECTION ==================== -->
+    <section id="academics" class="academics">
+        <div class="container">
+            <h2 class="section-title">Academics</h2>
+            
+            <div class="academic-info">
+                <p>We offer comprehensive education from Nursery to Class 12, focusing on holistic development.</p>
+            </div>
+
+            <div class="classes-grid">
+                <div class="class-card">
+                    <h4>Primary (Nursery - KG)</h4>
+                    <ul>
+                        <li>Play-based learning</li>
+                        <li>Creative activities</li>
+                        <li>Language development</li>
+                        <li>Social skills</li>
+                    </ul>
+                </div>
+                <div class="class-card">
+                    <h4>Lower Primary (1-3)</h4>
+                    <ul>
+                        <li>Foundational subjects</li>
+                        <li>Mathematics basics</li>
+                        <li>Language arts</li>
+                        <li>Science exploration</li>
+                    </ul>
+                </div>
+                <div class="class-card">
+                    <h4>Upper Primary (4-5)</h4>
+                    <ul>
+                        <li>Advanced concepts</li>
+                        <li>Science labs</li>
+                        <li>Computer basics</li>
+                        <li>Sports & arts</li>
+                    </ul>
+                </div>
+                <div class="class-card">
+                    <h4>Middle School (6-8)</h4>
+                    <ul>
+                        <li>CBSE curriculum</li>
+                        <li>Specialized subjects</li>
+                        <li>Project work</li>
+                        <li>Skill development</li>
+                    </ul>
+                </div>
+                <div class="class-card">
+                    <h4>Senior Secondary (9-10)</h4>
+                    <ul>
+                        <li>Board preparation</li>
+                        <li>Science & Math focus</li>
+                        <li>Career guidance</li>
+                        <li>Mock exams</li>
+                    </ul>
+                </div>
+                <div class="class-card">
+                    <h4>Higher Secondary (11-12)</h4>
+                    <ul>
+                        <li>Stream options</li>
+                        <li>College prep</li>
+                        <li>Competitive exams</li>
+                        <li>Counseling</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="curriculum-info">
+                <h3>Subjects Offered</h3>
+                <div class="subjects-list">
+                    <div class="subject-group">
+                        <h4>Core Subjects</h4>
+                        <p>English, Hindi, Mathematics, Science, Social Studies</p>
+                    </div>
+                    <div class="subject-group">
+                        <h4>Skill Subjects</h4>
+                        <p>Computer Science, Physical Education, Art & Music</p>
+                    </div>
+                    <div class="subject-group">
+                        <h4>Languages</h4>
+                        <p>English, Hindi, Sanskrit, French</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FACILITIES SECTION ==================== -->
+    <section id="facilities" class="facilities">
+        <div class="container">
+            <h2 class="section-title">Our Facilities</h2>
+            
+            <div class="facilities-grid">
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>Smart Classes</h3>
+                    <p>Interactive digital learning with projectors and smart boards in every classroom for enhanced teaching and learning experience.</p>
+                </div>
+
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Central Library</h3>
+                    <p>Well-stocked library with 10,000+ books, e-journals, and digital resources for research and recreational reading.</p>
+                </div>
+
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Science Labs</h3>
+                    <p>Modern physics, chemistry, and biology labs equipped with latest equipment for practical learning and experimentation.</p>
+                </div>
+
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-computer"></i>
+                    </div>
+                    <h3>Computer Labs</h3>
+                    <p>Two state-of-the-art computer labs with high-speed internet for coding, web development, and digital literacy.</p>
+                </div>
+
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-bus"></i>
+                    </div>
+                    <h3>Transport Facility</h3>
+                    <p>GPS-enabled buses covering 50+ routes with trained drivers and attendants for safe student transportation.</p>
+                </div>
+
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Cafeteria</h3>
+                    <p>Hygienic food services with nutritious meals prepared by professional chefs following food safety standards.</p>
+                </div>
+
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>Sports Complex</h3>
+                    <p>Indoor & outdoor sports facilities including basketball, badminton, volleyball, cricket ground, and gym.</p>
+                </div>
+
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-hospital"></i>
+                    </div>
+                    <h3>Medical Clinic</h3>
+                    <p>On-campus medical facility with qualified nurses and doctors for student health and emergency care.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== GALLERY SECTION ==================== -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Gallery</h2>
+            <p class="section-subtitle">Moments from RJL Public School</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=300&h=250&fit=crop&q=80" alt="School Event">
+                    <div class="gallery-overlay">
+                        <p>Annual Fest 2024</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=300&h=250&fit=crop&q=80" alt="Classroom">
+                    <div class="gallery-overlay">
+                        <p>Smart Class Learning</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=300&h=250&fit=crop&q=80" alt="Sports">
+                    <div class="gallery-overlay">
+                        <p>Sports Day 2024</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1532094413944-c6f53f1b121b?w=300&h=250&fit=crop&q=80" alt="Science Lab">
+                    <div class="gallery-overlay">
+                        <p>Science Lab</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=250&fit=crop&q=80" alt="Cultural Event">
+                    <div class="gallery-overlay">
+                        <p>Cultural Program</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-150784272343-583f20270319?w=300&h=250&fit=crop&q=80" alt="Library">
+                    <div class="gallery-overlay">
+                        <p>Central Library</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=300&h=250&fit=crop&q=80" alt="Field Trip">
+                    <div class="gallery-overlay">
+                        <p>Educational Field Trip</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1517457373614-b7152f80205e?w=300&h=250&fit=crop&q=80" alt="Awards">
+                    <div class="gallery-overlay">
+                        <p>Award Ceremony</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== NEWS SECTION ==================== -->
+    <section id="news" class="news">
+        <div class="container">
+            <h2 class="section-title">Latest News & Announcements</h2>
+            
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-date">
+                        <span class="day">15</span>
+                        <span class="month">April</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>Summer Camp Registration Open</h3>
+                        <p>RJL Public School is pleased to announce the opening of registrations for our exciting Summer Camp 2024. 
+                           Join us for fun activities, sports, arts, and skill development programs.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-date">
+                        <span class="day">10</span>
+                        <span class="month">April</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>Board Exam Results Announced</h3>
+                        <p>Congratulations to all students who appeared for Board Exams! We are proud to announce that 98% of our 
+                           students passed with distinction. Special achievement awards to top performers.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-date">
+                        <span class="day">05</span>
+                        <span class="month">April</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>New Science Lab Inaugurated</h3>
+                        <p>Our state-of-the-art Science Lab has been inaugurated with modern equipment for physics, chemistry, and 
+                           biology experiments. All students will have access to cutting-edge learning resources.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-date">
+                        <span class="day">01</span>
+                        <span class="month">April</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>Parent-Teacher Conference Scheduled</h3>
+                        <p>Monthly parent-teacher conference will be held on April 20 & 21. Parents are requested to book their 
+                           slots online. This is an excellent opportunity to discuss student progress.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-date">
+                        <span class="day">25</span>
+                        <span class="month">March</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>Inter-School Sports Competition Won</h3>
+                        <p>Our school's athletics team has won the Regional Inter-School Sports Competition 2024. We are proud of 
+                           our athletes' dedication and sportsmanship. Congratulations to all participants!</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-date">
+                        <span class="day">20</span>
+                        <span class="month">March</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>Scholarship Program Extended</h3>
+                        <p>We are pleased to announce the extension of our merit-based scholarship program. Eligible students can 
+                           now apply for scholarships covering up to 50% of tuition fees.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            
+            <div class="contact-wrapper">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Address</h3>
+                        <p>123 Education Road, Knowledge City<br>State - 123456, India</p>
+                    </div>
+
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p><a href="tel:+911234567890">+91 (123) 456-7890</a><br>
+                           <a href="tel:+911234567891">+91 (123) 456-7891</a></p>
+                    </div>
+
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p><a href="mailto:info@rjlpublicschool.com">info@rjlpublicschool.com</a><br>
+                           <a href="mailto:admission@rjlpublicschool.com">admission@rjlpublicschool.com</a></p>
+                    </div>
+
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Working Hours</h3>
+                        <p>Monday - Friday: 8:00 AM - 4:00 PM<br>
+                           Saturday: 8:00 AM - 1:00 PM<br>
+                           Sunday: Closed</p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h3>Send us a Message</h3>
+                    <form id="contactForm" class="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="tel" placeholder="Phone Number" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Map Section -->
+            <div class="map-section">
+                <h3>Find Us on Map</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.8844339408754!2d72.82643!3d19.0176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9e5e5e5e5e5%3A0x5e5e5e5e5e5e5e5e!2sEducation%20City!5e0!3m2!1sen!2sin!4v1234567890"
+                        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About RJL</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#academics">Academics</a></li>
+                        <li><a href="#facilities">Facilities</a></li>
+                        <li><a href="#">Staff</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Admission</h4>
+                    <ul>
+                        <li><a href="#admission">Admission Process</a></li>
+                        <li><a href="#">Fee Structure</a></li>
+                        <li><a href="#">Scholarships</a></li>
+                        <li><a href="#">Apply Online</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#">Downloads</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 RJL Public School. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== FLOATING WHATSAPP BUTTON ==================== -->
+    <a href="https://wa.me/911234567890?text=Hello%20RJL%20Public%20School" class="whatsapp-button" target="_blank" title="Chat with us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- ==================== BACK TO TOP BUTTON ==================== -->
+    <button id="backToTop" class="back-to-top" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
